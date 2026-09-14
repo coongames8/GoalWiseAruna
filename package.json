@@ -1,9 +1,9 @@
 {
-  "name": "goalwise",
+  "name": "sportwise",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://goalwise.onrender.com/",
+  "homepage": "https://sportwise.onrender.com/",
   "proxy": "*",
   "scripts": {
     "dev": "vite",

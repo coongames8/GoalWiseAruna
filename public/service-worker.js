@@ -89,7 +89,7 @@ self.addEventListener('notificationclick', (event) => {
 
 // Push event handler
 self.addEventListener('push', (event) => {
-    let payload = { title: 'GOAL WISE', body: 'New tips available!' };
+    let payload = { title: 'SPORT WISE', body: 'New tips available!' };
     try {
         if (event.data) {
             const parsed = event.data.json();

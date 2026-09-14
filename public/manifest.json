@@ -1,6 +1,6 @@
 {
-  "short_name": "GOAL WISE",
-  "name": "GOAL WISE — Football Tips & VIP Predictions",
+  "short_name": "SPORT WISE",
+  "name": "SPORT WISE — Football Tips & VIP Predictions",
   "description": "Get expert football tips, accurate match predictions, VIP correct scores, live scores, and the latest betting odds. Stay updated with fixtures and results from top leagues worldwide.",
   "icons": [
     {
@@ -32,7 +32,7 @@
     {
       "name": "Pricing Plans",
       "short_name": "Pricing",
-      "description": "View GOAL WISE subscription plans.",
+      "description": "View SPORT WISE subscription plans.",
       "url": "/pricing"
     }
   ],

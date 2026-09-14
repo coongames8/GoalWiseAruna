@@ -1,7 +1,7 @@
 import { Helmet } from 'react-helmet-async';
 import { useLocation } from 'react-router-dom';
 
-const SITE_NAME = 'GOAL WISE';
+const SITE_NAME = 'SPORT WISE';
 const DEFAULT_DESCRIPTION =
     'Get expert football tips, VIP predictions, correct scores, live scores and betting odds for top leagues worldwide.';
 const DEFAULT_KEYWORDS =
@@ -9,16 +9,16 @@ const DEFAULT_KEYWORDS =
 
 const PAGE_META = {
     '': { title: 'Expert Football Tips & VIP Predictions', description: DEFAULT_DESCRIPTION },
-    Login: { title: 'Login', description: 'Sign in to your GOAL WISE account to access VIP football tips and predictions.' },
-    Register: { title: 'Create Account', description: 'Register on GOAL WISE to unlock VIP football tips, predictions and expert analysis.' },
-    About: { title: 'About Us', description: 'Learn about GOAL WISE — your home for expert football predictions, VIP tips and real-time match insights.' },
+    Login: { title: 'Login', description: 'Sign in to your SPORT WISE account to access VIP football tips and predictions.' },
+    Register: { title: 'Create Account', description: 'Register on SPORT WISE to unlock VIP football tips, predictions and expert analysis.' },
+    About: { title: 'About Us', description: 'Learn about SPORT WISE — your home for expert football predictions, VIP tips and real-time match insights.' },
     Tips: { title: 'Today\'s Football Tips & Predictions', description: 'Browse today\'s football tips and VIP predictions across major leagues. Filter by game type and date.' },
-    Pricing: { title: 'Pricing Plans', description: 'Choose a GOAL WISE subscription plan — daily, weekly or monthly — for VIP football tips and predictions.' },
-    Subscribe: { title: 'Subscribe', description: 'Complete your subscription to unlock GOAL WISE VIP football tips and predictions.' },
-    'Add Tip': { title: 'Add Tip', description: 'Admin: add a new football tip to GOAL WISE.' },
-    'Edit Tip': { title: 'Edit Tip', description: 'Admin: update an existing football tip on GOAL WISE.' },
-    'Edit User': { title: 'Edit User', description: 'Admin: update a user subscription on GOAL WISE.' },
-    'All Users': { title: 'All Users', description: 'Admin: view all registered GOAL WISE users.' },
+    Pricing: { title: 'Pricing Plans', description: 'Choose a SPORT WISE subscription plan — daily, weekly or monthly — for VIP football tips and predictions.' },
+    Subscribe: { title: 'Subscribe', description: 'Complete your subscription to unlock SPORT WISE VIP football tips and predictions.' },
+    'Add Tip': { title: 'Add Tip', description: 'Admin: add a new football tip to SPORT WISE.' },
+    'Edit Tip': { title: 'Edit Tip', description: 'Admin: update an existing football tip on SPORT WISE.' },
+    'Edit User': { title: 'Edit User', description: 'Admin: update a user subscription on SPORT WISE.' },
+    'All Users': { title: 'All Users', description: 'Admin: view all registered SPORT WISE users.' },
     '404 Error': { title: 'Page Not Found', description: 'The page you are looking for does not exist.' },
 };
 

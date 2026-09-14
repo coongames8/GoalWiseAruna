@@ -4,4 +4,4 @@ Disallow: /add-tip
 Disallow: /edit-tip
 Disallow: /users
 
-Sitemap: https://goalwise.onrender.com/sitemap.xml
+Sitemap: https://sportwise.onrender.com/sitemap.xml

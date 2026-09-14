@@ -8,7 +8,7 @@ export default function Flyer() {
         <div className="flyer">
             <div className="content">
                 <h1>Ready to make smarter predictions?</h1>
-                <p>Join Goal Wise and unlock expert VIP tips, detailed analysis, and real-time match insights.</p>
+                <p>Join SPORT WISE and unlock expert VIP tips, detailed analysis, and real-time match insights.</p>
                 <NavLink
                     to="/subscribe"
                     className="btn"

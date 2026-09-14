@@ -9,7 +9,7 @@ import {
 } from '../../utils/pushNotifications';
 import './NotificationPrompt.scss';
 
-const DISMISS_KEY = 'goalwise-notification-prompt-dismissed';
+const DISMISS_KEY = 'sportwise-notification-prompt-dismissed';
 
 export default function NotificationPrompt() {
     const [visible, setVisible] = useState(false);
@@ -28,7 +28,7 @@ export default function NotificationPrompt() {
         const permission = await requestNotificationPermission();
         if (permission === 'granted') {
             await showLocalNotification(
-                'GOAL WISE',
+                'SPORT WISE',
                 'Notifications are on! You will get alerts for new tips and predictions.',
                 '/tips'
             );

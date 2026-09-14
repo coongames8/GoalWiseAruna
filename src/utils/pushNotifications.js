@@ -1,4 +1,4 @@
-const NOTIFICATION_PROMPT_KEY = 'goalwise-notification-prompted';
+const NOTIFICATION_PROMPT_KEY = 'sportwise-notification-prompted';
 
 export const isStandalone = () =>
     window.matchMedia('(display-mode: standalone)').matches ||

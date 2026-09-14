@@ -20,7 +20,7 @@ const Footer = () => {
         <footer className="footer">
             <div className="footer-top">
                 <div className="brand-col">
-                    <h2 className="brand-name">GOAL WISE</h2>
+                    <h2 className="brand-name">SPORT WISE</h2>
                     <p className="brand-desc">
                         Expert football predictions, VIP tips, and real-time insights for major leagues worldwide.
                     </p>
@@ -58,7 +58,7 @@ const Footer = () => {
             <hr />
 
             <div className="footer-bottom">
-                <p>&copy; GoalWise {new Date().getFullYear()}</p>
+                <p>&copy; SportWise {new Date().getFullYear()}</p>
                 <NavLink to="/about/#faq" state={{ from: location }}>FAQ</NavLink>
             </div>
         </footer>

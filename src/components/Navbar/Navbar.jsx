@@ -34,8 +34,8 @@ const Navbar = () => {
     return (
         <header>
             <NavLink to="/" className="logo" onClick={closeMenu}>
-                <img src={Logo} alt="GOAL WISE" />
-                <span className="brand">GOAL WISE</span>
+                <img src={Logo} alt="SPORT WISE" />
+                <span className="brand">SPORT WISE</span>
             </NavLink>
             <nav className={opened ? 'active' : ''}>
                 <div className="btn-container">

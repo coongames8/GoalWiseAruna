@@ -5,7 +5,7 @@ const Featured = () => {
     return (
         <section className="featured">
             <div className="section">
-                <h1 className="heading">Why Goal Wise</h1>
+                <h1 className="heading">Why SPORT WISE</h1>
                 <p className="subheading">Everything you need to make smarter football predictions</p>
                 <div className="wrapper">
                     {featured.map((feature) => (

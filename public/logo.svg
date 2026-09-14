@@ -1,12 +1,184 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+<svg width="1024" height="1024" viewBox="0 0 1024 1024"
+     xmlns="http://www.w3.org/2000/svg">
+
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#059212"/>
-      <stop offset="1" stop-color="#0A6847"/>
+    <!-- Background gradient -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07865F"/>
+      <stop offset="55%" stop-color="#005E4D"/>
+      <stop offset="100%" stop-color="#003C36"/>
     </linearGradient>
+
+    <!-- Green logo gradient -->
+    <linearGradient id="green" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%" stop-color="#12C98A"/>
+      <stop offset="55%" stop-color="#32E58C"/>
+      <stop offset="100%" stop-color="#6BFF55"/>
+    </linearGradient>
+
+    <!-- Subtle shadow -->
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12"
+                    flood-color="#001F1A" flood-opacity="0.35"/>
+    </filter>
+
+    <!-- Clip for rounded app icon -->
+    <clipPath id="rounded">
+      <rect x="0" y="0" width="1024" height="1024" rx="150"/>
+    </clipPath>
   </defs>
-  <rect width="512" height="512" rx="96" fill="url(#g)"/>
-  <circle cx="256" cy="256" r="150" fill="none" stroke="#fff" stroke-width="14" opacity="0.9"/>
-  <path d="M256 106 L300 206 L406 206 L322 268 L354 374 L256 312 L158 374 L190 268 L106 206 L212 206 Z" fill="#fff" opacity="0.95"/>
-  <text x="256" y="470" font-family="Inter, Arial, sans-serif" font-size="64" font-weight="800" fill="#fff" text-anchor="middle" letter-spacing="4">GOAL WISE</text>
+
+
+  <!-- ========================================= -->
+  <!-- BACKGROUND -->
+  <!-- ========================================= -->
+
+  <rect width="1024" height="1024"
+        rx="150"
+        fill="url(#bg)"/>
+
+
+  <!-- ========================================= -->
+  <!-- SPORTWISE SYMBOL -->
+  <!-- ========================================= -->
+
+  <g filter="url(#shadow)">
+
+    <!-- Upper S / white football sweep -->
+    <path
+      d="
+        M 690 260
+        C 635 210 570 190 500 194
+        C 410 198 342 245 322 320
+        C 299 404 350 460 430 488
+        L 550 531
+        L 604 462
+        L 466 412
+        C 424 397 405 369 417 340
+        C 430 308 470 286 520 284
+        C 572 281 620 297 663 326
+        Z
+      "
+      fill="#FFFFFF"/>
+
+
+    <!-- Lower S / green sweep -->
+    <path
+      d="
+        M 347 604
+        C 392 654 456 683 523 684
+        C 595 685 652 653 686 602
+        C 708 568 711 535 697 507
+        L 625 560
+        C 604 582 573 595 536 594
+        C 496 593 461 579 433 555
+        Z
+      "
+      fill="url(#green)"/>
+
+
+    <!-- Football -->
+    <g transform="translate(620 390)">
+
+      <!-- Football outer -->
+      <circle
+        cx="0"
+        cy="0"
+        r="91"
+        fill="none"
+        stroke="#FFFFFF"
+        stroke-width="10"
+        opacity="0.95"/>
+
+      <!-- Center pentagon -->
+      <polygon
+        points="
+          0,-31
+          30,-10
+          19,26
+          -19,26
+          -30,-10
+        "
+        fill="#073F38"/>
+
+      <!-- Top left panel -->
+      <polygon
+        points="-30,-10 -66,-28 -78,-2 -65,30 -19,26"
+        fill="#FFFFFF"/>
+
+      <!-- Top right panel -->
+      <polygon
+        points="30,-10 55,-34 73,-13 72,22 19,26"
+        fill="#FFFFFF"/>
+
+      <!-- Bottom right panel -->
+      <polygon
+        points="19,26 49,52 35,70 2,65 -19,26"
+        fill="#FFFFFF"/>
+
+      <!-- Bottom left panel -->
+      <polygon
+        points="-19,26 -54,49 -66,27 -65,30"
+        fill="#FFFFFF"/>
+
+      <!-- Football seams -->
+      <path
+        d="M-30-10 L-66-28
+           M30-10 L55-34
+           M19 26 L49 52
+           M-19 26 L-54 49"
+        stroke="#073F38"
+        stroke-width="7"
+        fill="none"/>
+    </g>
+
+
+    <!-- ======================================= -->
+    <!-- ANALYTICS ARROW -->
+    <!-- ======================================= -->
+
+    <path
+      d="
+        M 395 620
+        L 485 695
+        L 555 640
+        L 625 688
+        L 770 535
+      "
+      fill="none"
+      stroke="url(#green)"
+      stroke-width="48"
+      stroke-linecap="square"
+      stroke-linejoin="miter"/>
+
+    <!-- Arrow head -->
+    <polygon
+      points="
+        770,535
+        752,610
+        725,580
+        688,615
+      "
+      fill="#62F65B"/>
+
+  </g>
+
+
+  <!-- ========================================= -->
+  <!-- WORDMARK -->
+  <!-- ========================================= -->
+
+  <text
+    x="512"
+    y="855"
+    text-anchor="middle"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="116"
+    font-weight="800"
+    letter-spacing="-5">
+
+    <tspan fill="#FFFFFF">Sport</tspan><tspan fill="#35E98A">Wise</tspan>
+
+  </text>
+
 </svg>

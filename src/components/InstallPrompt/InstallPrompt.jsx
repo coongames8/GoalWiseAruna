@@ -3,9 +3,9 @@ import { useLocation } from 'react-router-dom';
 import { IoDownloadOutline, IoCloseOutline } from 'react-icons/io5';
 import './InstallPrompt.scss';
 
-const VISIT_KEY = 'goalwise-page-visits';
-const DISMISS_KEY = 'goalwise-install-dismissed';
-const DISMISS_TS_KEY = 'goalwise-install-dismissed-ts';
+const VISIT_KEY = 'sportwise-page-visits';
+const DISMISS_KEY = 'sportwise-install-dismissed';
+const DISMISS_TS_KEY = 'sportwise-install-dismissed-ts';
 const RE_PROMPT_INTERVAL = 5;
 
 export default function InstallPrompt() {
@@ -94,7 +94,7 @@ export default function InstallPrompt() {
                 <IoDownloadOutline />
             </div>
             <div className="install-prompt__content">
-                <span className="install-prompt__title">Install GOAL WISE</span>
+                <span className="install-prompt__title">Install SPORT WISE</span>
                 <span className="install-prompt__text">Add to your home screen for quick access to tips and predictions.</span>
             </div>
             <button className="install-prompt__btn" onClick={handleInstall}>
