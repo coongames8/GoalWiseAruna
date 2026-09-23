@@ -5,7 +5,7 @@ import { userState } from '../../recoil/atoms';
 import { useRecoilValue } from 'recoil';
 import { useEffect, useState } from 'react';
 
-const ADMIN_EMAILS = ['kkibetkkoir@gmail.com', 'charleykibet254@gmail.com', 'coongames8@gmail.com'];
+const ADMIN_EMAILS = ['kkibetkkoir@gmail.com', 'charleykibet254@gmail.com', 'coongames8@gmail.com', 'kipkiruik1@gmail.com'];
 
 const Footer = () => {
     const user = useRecoilValue(userState);

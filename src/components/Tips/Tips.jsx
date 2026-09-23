@@ -10,7 +10,7 @@ import { userState } from '../../recoil/atoms';
 import Loader from '../Loader/Loader';
 import { getTips } from '../../firebase';
 
-const ADMIN_EMAILS = ['kkibetkkoir@gmail.com', 'charleykibet254@gmail.com', 'coongames8@gmail.com'];
+const ADMIN_EMAILS = ['kkibetkkoir@gmail.com', 'charleykibet254@gmail.com', 'coongames8@gmail.com', 'kipkiruik1@gmail.com'];
 
 const GAME_TYPES = [
   { value: 'ALL', label: 'All Games' },
