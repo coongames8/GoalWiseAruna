@@ -58,7 +58,7 @@ export default function KoraPayments() {
         const amount = data != null ? data.price : convertPrice(subscription.price);
         const payCurrency = (data != null ? data.currency : symbol) === '₦' ? 'NGN' : 'KES';
         const paymentOptions = {
-            key: currency === "KES" ? 'pk_live_Gu3aUUGAzWj1zeonHdwBAi4oDD9Vc4AViyHWqALp' : "pk_live_KxNb5jDg18CQtJWzJt1RdgyMNsRo4D9NanrmE7nP",
+            key: currency === 'pk_live_Gu3aUUGAzWj1zeonHdwBAi4oDD9Vc4AViyHWqALp',
             reference: new Date().getTime().toString(),
             amount,
             currency: payCurrency,
